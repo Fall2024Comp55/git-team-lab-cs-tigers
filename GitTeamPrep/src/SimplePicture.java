@@ -1,8 +1,8 @@
 //comment one
 //comment two
-import acm.graphics.GImage;
-import acm.graphics.GLabel;
-import acm.program.GraphicsProgram;
+import acm.graphics.GImage.*;
+import acm.graphics.GLabel.*;
+import acm.program.GraphicsProgram.*;
 
 public class SimplePicture extends GraphicsProgram {
 	public static int SIZE = 800;
@@ -21,3 +21,5 @@ public class SimplePicture extends GraphicsProgram {
 		new SimplePicture().start();
 	}
 }
+
+//Only change here to test if it works
