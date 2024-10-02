@@ -15,9 +15,8 @@ public class SimplePicture extends GraphicsProgram {
 		GImage robot = new GImage(S, 200, 100);
 		add(robot);
 		GLabel label = new GLabel("How I feel when using github hackslash - Rogelio", 200, 400);
-		add(label);
+		add(label); //conflict here
 	}
-		//conflict here
 	public static void main(String[] args) {
 		new SimplePicture().start();
 	}
