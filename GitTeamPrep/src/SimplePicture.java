@@ -4,6 +4,10 @@ import acm.graphics.GImage.*;
 import acm.graphics.GLabel.*;
 import acm.program.GraphicsProgram.*;
 
+public class GraphicsProgram{
+	return 0;
+}
+
 public class SimplePicture extends GraphicsProgram {
 	public static int SIZE = 800;
 	private final String S = "robot.png";
@@ -22,4 +26,3 @@ public class SimplePicture extends GraphicsProgram {
 	}
 }
 
-//Only change here to test if it works
